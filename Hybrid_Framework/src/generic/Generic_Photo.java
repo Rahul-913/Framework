@@ -12,6 +12,7 @@ public class Generic_Photo
 {
 	public static void getPhoto(WebDriver driver) throws IOException
 	{
+		System.out.println("started to take screenshot");
 		String photo = "C:\\Users\\Faculty\\Desktop\\Selenium\\Screenshots";
 		Date d = new Date();
 		String d1 = d.toString();
