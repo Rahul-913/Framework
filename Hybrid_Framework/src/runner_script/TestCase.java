@@ -15,6 +15,7 @@ public class TestCase extends Generic
 		p.entrpsw("Psw");
 		p.clkbtn();
 		System.out.println("This testcase will be executed after method");
+		System.out.println("This testcase is modified by Amiya Ranjan");
 		
 	}
 
