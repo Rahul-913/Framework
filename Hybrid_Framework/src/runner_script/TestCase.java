@@ -14,6 +14,7 @@ public class TestCase extends Generic
 		p.entrusn("Admin");
 		p.entrpsw("Psw");
 		p.clkbtn();
+		System.out.println("This testcase will be executed after method");
 		
 	}
 
