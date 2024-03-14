@@ -21,7 +21,7 @@ public class Generic_Photo
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File dst = new File (photo+d2+d1+".jpeg");
 		FileHandler.copy(src, dst);
-		System.out.println("Completed");
+		System.out.println("Completed 1");
 	}
 	
 }
