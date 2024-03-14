@@ -13,6 +13,7 @@ public class Generic
 	@BeforeMethod
 	public void openAppn()
 	{
+		System.out.println("The testcase execution is Started");
 		System.setProperty("webdriver.chrome.driver","./sw/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
