@@ -22,6 +22,7 @@ public class Generic
 	@AfterMethod
 	public void closeAppn()
 	{
+		System.out.println("The testcase execution is completed");
 		driver.close();
 	}
 }
