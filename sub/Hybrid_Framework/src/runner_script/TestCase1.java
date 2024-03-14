@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import generic.Generic;
 import pom_Script.POM;
 
-public class TestCase extends Generic
+public class TestCase1 extends Generic
 {
 	@Test
 	public void login()

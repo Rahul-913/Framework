@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class POM 
+public class POM1 
 {
 	@FindBy(name="email")
 	private WebElement usn;
@@ -16,7 +16,7 @@ public class POM
 	@FindBy(name="login")
 	private WebElement btn;
 	
-	public POM(WebDriver driver)
+	public POM1(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
 	}

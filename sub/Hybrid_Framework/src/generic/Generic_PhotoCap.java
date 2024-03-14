@@ -8,7 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
-public class Generic_Photo 
+public class Generic_PhotoCap 
 {
 	public static void getPhoto(WebDriver driver) throws IOException
 	{
