@@ -21,6 +21,7 @@ public class Generic_Photo
 		File dst = new File (photo+d2+d1+".jpeg");
 		FileHandler.copy(src, dst);
 		System.out.println("Completed");
+		System.out.println("Completed by alka mishra");
 	}
 	
 }
